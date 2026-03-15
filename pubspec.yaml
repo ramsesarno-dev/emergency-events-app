@@ -1,0 +1,31 @@
+name: app_eventos_911
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Persistencia y base de datos
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+  # Selección de imágenes (fotos de eventos)
+  image_picker: ^1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # No olvides habilitar esta sección si vas a usar fotos locales
+  # assets:
+  #   - assets/images/
