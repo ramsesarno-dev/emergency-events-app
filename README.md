@@ -1,17 +1,37 @@
-# app_eventos_911
+# Emergency Events App
 
-A new Flutter project.
+Aplicación móvil desarrollada en Flutter para la gestión y monitoreo de eventos de emergencia
+en tiempo real. Este proyecto permite registrar incidentes, visualizar reportes, administrar usuarios
+y mantener una comunicación rápida ante situaciones críticas.
 
-## Getting Started
+## Características principales
 
-This project is a starting point for a Flutter application.
+- Registro y autenticación de usuarios
+- Gestión de eventos de emergencia
+- Reporte de incidentes en tiempo real
+- Visualización de información organizada
+- Interfaz moderna y responsiva
+- Consumo de API REST
+- Manejo de estados en Flutter
+- Arquitectura limpia y escalable
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologías utilizadas
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter
+- Dart
+- REST API
+- Provider / State Management
+- Material Design
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Estructura del proyecto
+
+```bash
+lib/
+│
+├── core/
+├── models/
+├── services/
+├── screens/
+├── widgets/
+├── providers/
+└── main.dart
